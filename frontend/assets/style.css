@@ -1,0 +1,14 @@
+body { background:#f7f9fc; color:#111; }
+.metric .label { font-size:0.9rem; color:#6c757d; }
+.metric .value { font-size:1.6rem; font-weight:600; margin-top:6px; }
+.log { max-height:200px; overflow:auto; font-family:monospace; font-size:0.9rem; background:#fff; padding:8px; border-radius:6px; }
+header { background: linear-gradient(90deg,#fff,#f8f9fb); }
+.card { border-radius:8px; }
+
+@media (max-width:576px){ .metric .value { font-size:1.2rem; } }
+
+/* Capacity progress styling */
+#capacityText { font-weight:700; min-width:54px; }
+.progress { background:#e9edf3; }
+.progress-bar { background: linear-gradient(90deg,#5bc0ff,#0d6efd); }
+.metric .small { color:#5a6b7a; }
